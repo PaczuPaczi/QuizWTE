@@ -57,6 +57,9 @@
     <string name="your_score">Your score:</string>
     <string name="try_again">Try again</string>
     <string name="quiz_wte">QUIZ WTE</string>
+    <string name="share_your_result">Share your result</string>
+    <string name="wte_quiz_result">WTE quiz result</string>
+    <string name="my_result">My result: </string>
 
 
 

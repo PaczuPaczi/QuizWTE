@@ -58,4 +58,8 @@
     <string name="message_4">WTE to Twoje życie. Chodzisz na WTE od około dziesięciu lat regularnie. Niestety musisz pogodzić się z faktem, że WTE się skończyło i powinieneś znaleźć sobie inne hobby.</string>
     <string name="your_score">Twój wynik:</string>
     <string name="try_again">Spróbuj jeszcze raz</string>
+    <string name="quiz_wte">QUIZ WTE</string>
+    <string name="share_your_result">Podziel się swoim wynikiem</string>
+    <string name="wte_quiz_result">WTE quiz wynik</string>
+    <string name="my_result">Mój wynik: </string>
 </resources>

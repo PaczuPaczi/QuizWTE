@@ -1,6 +1,8 @@
 package com.example.android.quizwte;
 
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,19 +17,14 @@ public class MainActivity extends AppCompatActivity {
     TextView t;
     int score = 0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         t = (TextView) findViewById(R.id.quiz);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
         t.setTypeface(myCustomFont);
-
-
-
     }
 
     /**
@@ -53,61 +50,45 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (question1.isChecked()) {
-
             score = score + 1;
         }
-
 
         if (question2a.isChecked() && question2c.isChecked() && question2e.isChecked() && question2f.isChecked()) {
             score = score + 1;
         }
 
-        if (question3.equalsIgnoreCase("Mul kalifa")) {
+        if (question3.equalsIgnoreCase("MUL KALIFA")) {
             score = score + 1;
         }
 
-
         if (question4.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question5.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question6.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question7.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question8.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question9.isChecked()) {
-
             score = score + 1;
-
         }
 
         if (question10.isChecked()) {
-
             score = score + 1;
-
         }
+
         setContentView(R.layout.result);
 
         t = (TextView) findViewById(R.id.your_score);
@@ -141,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (score <= 2) {
-        scoreMessageTextView.setText(R.string.message_1);
+            scoreMessageTextView.setText(R.string.message_1);
 
         } else if ((score > 2) && (score <= 6)) {
             scoreMessageTextView.setText(R.string.message_2);
@@ -159,17 +140,39 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method resets the quiz and comes back to questions
      */
-        public void tryAgain (View view){
 
-            score = 0;
+    public void tryAgain(View view) {
 
-            setContentView(R.layout.activity_main);
+        score = 0;
 
-            t = (TextView) findViewById(R.id.quiz);
-            Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
-            t.setTypeface(myCustomFont);
+        setContentView(R.layout.activity_main);
+
+        t = (TextView) findViewById(R.id.quiz);
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
+        t.setTypeface(myCustomFont);
+
+    }
+
+    /**
+     * This method is called when the order button is clicked.
+     */
+
+    public void shareYourResult(View view) {
+
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        {
+            intent.setData(Uri.parse("mailto: paczuch.mail@gmail.com")); // only email apps should handle this
+            intent.putExtra(Intent.EXTRA_EMAIL, "paczuch.mail@gmail.com");
+            intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.wte_quiz_result));
+            intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.my_result) + score);
+            if (intent.resolveActivity(getPackageManager()) != null) {
+                startActivity(intent);
+            }
 
         }
+
+    }
+
 }
 
 
