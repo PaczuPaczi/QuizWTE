@@ -23,8 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         t = (TextView) findViewById(R.id.quiz);
-        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JambalayaITCStd.otf");
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
         t.setTypeface(myCustomFont);
+
+
 
     }
 
@@ -107,6 +109,15 @@ public class MainActivity extends AppCompatActivity {
 
         }
         setContentView(R.layout.result);
+
+        t = (TextView) findViewById(R.id.your_score);
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
+        t.setTypeface(myCustomFont);
+
+        t = (TextView) findViewById(R.id.score);
+        myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
+        t.setTypeface(myCustomFont);
+
         displayScore(score);
         displayMessage(score);
     }
@@ -153,6 +164,10 @@ public class MainActivity extends AppCompatActivity {
             score = 0;
 
             setContentView(R.layout.activity_main);
+
+            t = (TextView) findViewById(R.id.quiz);
+            Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/JOKERMAN.TTF");
+            t.setTypeface(myCustomFont);
 
         }
 }

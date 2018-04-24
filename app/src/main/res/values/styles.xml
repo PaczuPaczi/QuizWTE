@@ -8,4 +8,12 @@
         <item name="colorAccent">#FF9800</item>
     </style>
 
+    <style name="ButtonTheme">
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:layout_margin">@dimen/margin_layout</item>
+        <item name="android:padding">@dimen/margin_12</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
 </resources>
