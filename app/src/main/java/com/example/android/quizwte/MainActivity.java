@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             score = score + 1;
         }
 
-        if (question3.equalsIgnoreCase("MUL KALIFA")) {
+        if (question3.equalsIgnoreCase("Muł Kalifa")) {
             score = score + 1;
         }
 

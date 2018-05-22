@@ -48,7 +48,7 @@
     <string name="answer_9c">w 2010</string>
     <string name="answer_9d">w 2012</string>
     <string name="question10">Na którą wycieczkę WTE stawiło się najmniej osób?</string>
-    <string name="answer_10a">SO SAW WAR\'\\SAW</string>
+    <string name="answer_10a">SO SAW WAR\'\SAW</string>
     <string name="answer_10b">DZIEŃ NAUCZYCIELA - BABARYBA</string>
     <string name="answer_10c">ZŁO DZIEJE (się) W SIEDLCACH</string>
     <string name="answer_10d">KANALIA</string>
@@ -61,5 +61,5 @@
     <string name="quiz_wte">QUIZ WTE</string>
     <string name="share_your_result">Podziel się swoim wynikiem</string>
     <string name="wte_quiz_result">WTE quiz wynik</string>
-    <string name="my_result">Mój wynik: </string>
+    <string name="my_result">Mój wynik:" "</string>
 </resources>

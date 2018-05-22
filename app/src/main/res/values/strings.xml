@@ -7,12 +7,12 @@
     <string name="answer_1d">24th February 2018</string>
     <string name="show_my_result">Show my result</string>
     <string name="question2">2. Who led WTE excursions?</string>
-    <string name="answer_2a">Wielblad Romario</string>
+    <string name="answer_2a">Wielbłąd Romario</string>
     <string name="answer_2b">Banan</string>
-    <string name="answer_2c">Wlodek Dembowski</string>
+    <string name="answer_2c">Włodek Dembowski</string>
     <string name="answer_2d">Hadrian</string>
     <string name="answer_2e">Paprodziad</string>
-    <string name="answer_2f">Wlodyga</string>
+    <string name="answer_2f">Włodyga</string>
     <string name="question3">3. Who wrote: The majority of the WTE squad is composed of the minority, and everyone is equally different?</string>
     <string name="type_your_answer_here"><i>Type your answer here</i></string>
     <string name="question4">4. How many excursions have taken place that were publicised on the WTE blog?</string>
@@ -21,10 +21,10 @@
     <string name="answer_4c">about 234</string>
     <string name="answer_4d">about 666</string>
     <string name="question5">5. \"The Stairs of Escher\'s\"\ are not:</string>
-    <string name="answer_5a">in Wierza Lotnicza \"Eszera\"</string>
+    <string name="answer_5a">in Wierza Lotnicza \"Eszer\'s\"</string>
     <string name="answer_5b">in Escher in the Palace in Hague</string>
     <string name="answer_5c">in Miasto Koni</string>
-    <string name="answer_5d">in Wyscigowe Parczysko-Zamczyska</string>
+    <string name="answer_5d">in Wyścigowe Parczysko-Zamczyska</string>
     <string name="question6">6. Where was the flag of WTE raised? </string>
     <string name="answer_6a">in Mount Czydlo</string>
     <string name="answer_6b">in Toyfelberg</string>
@@ -36,9 +36,9 @@
     <string name="answer_7c">about 70 and about 63</string>
     <string name="answer_7d">about 63 and about 70</string>
     <string name="question8">8. At which excursion was this picture taken?</string>
-    <string name="answer_8a">WYCZESANE WLOCHY PIASTOW</string>
-    <string name="answer_8b">LAZILLA versus URSUS</string>
-    <string name="answer_8c">MIASTO WYMARLYCH KOWBOII</string>
+    <string name="answer_8a">WYCZESANE WŁOCHY PIASTÓW</string>
+    <string name="answer_8b">ŁAZILLA versus URSUS</string>
+    <string name="answer_8c">MIASTO WYMARŁYCH KOWBOII</string>
     <string name="answer_8d">URSUS - PLANET LHASA</string>
     <string name="question9">9. In which year did the most WTE excursions take place? (according WTE blog)</string>
     <string name="answer_9a">in 2008</string>
@@ -47,8 +47,8 @@
     <string name="answer_9d">in 2012</string>
     <string name="question10">At which WTE excursion did the fewest people turn up?</string>
     <string name="answer_10a">SO SAW WAR\'\SAW</string>
-    <string name="answer_10b">DZIEN NAUCZYCIELA - BABARYBA</string>
-    <string name="answer_10c">ZLO DZIEJE (sie) W SIEDLCACH </string>
+    <string name="answer_10b">DZIEŃ NAUCZYCIELA - BABARYBA</string>
+    <string name="answer_10c">ZŁO DZIEJE (się) W SIEDLCACH </string>
     <string name="answer_10d">KANALIA</string>
     <string name="message_1">You stumbled upon WTE, because you are a fan of the band Laki Lan. Well, I hate to say it, but it shows.</string>
     <string name="message_2">Unfortunately, you have stumbled upon WTE too late. The best adventures in WTE have already happened.</string>
@@ -59,7 +59,7 @@
     <string name="quiz_wte">QUIZ WTE</string>
     <string name="share_your_result">Share your result</string>
     <string name="wte_quiz_result">WTE quiz result</string>
-    <string name="my_result">My result: </string>
+    <string name="my_result">My result:" "</string>
 
 
 
